@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DemoEx"
         mc:Ignorable="d"
-        Title="AuthWindow" Height="600" Width="800">
+        Title="AuthWindow" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50*"/>
@@ -23,7 +24,7 @@
             <RowDefinition Height="40*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="1" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Width="432" TextAlignment="Center" FontSize="80" Height="116"><Run FontWeight="Bold" Language="ru-ru" Text="ЗООПАРК"/></TextBlock>
+        <TextBlock Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="535" TextAlignment="Center" FontSize="48" Height="162" FontWeight="Bold" HorizontalAlignment="Center"><Run Text="УЧЕТ СПОРТ"/><Run Language="ru-ru" Text="ИВНОГО"/><LineBreak/><Run Language="ru-ru"/><Run Text="ИНВЕНТОРЯ"/><LineBreak/><Run/></TextBlock>
 
         <TextBlock Grid.Column="1" TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="432" TextAlignment="Center" Height="46" FontSize="30"><Run Language="ru-ru" Text="введите логин, пожалуйста"/></TextBlock>
         <TextBox x:Name="tbxlogin" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="432" TextAlignment="Center" BorderBrush="Black" Background="{x:Null}" Height="47" FontSize="30"/>

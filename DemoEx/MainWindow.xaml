@@ -5,8 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DemoEx"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+            Title="Добавление записей"
+    Height="800"
+    Width="500"
+    WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="418*"/>
+            <ColumnDefinition Width="41*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="92*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="188*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="ДОБАВЛЕНИЕ ЗАПИСЕЙ" Grid.Row="0" TextAlignment="Center" FontSize="30" FontWeight="Bold" Margin="21,24,21,24" Grid.Column="1"/>
+
+        <TextBlock FontSize="22" FontWeight="Bold"
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               Height="29" Width="210" Grid.Row="1" TextAlignment="Center"
+               Text="НАЗВАНИЕ" Grid.Column="1"/>
+
+        <TextBlock FontSize="22" FontWeight="Bold"
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               Height="29" Width="210" Grid.Row="3" TextAlignment="Center"
+               Text="ЦЕНА" Grid.Column="1"/>
+
+        <TextBlock FontSize="22" FontWeight="Bold"
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               Height="29" Width="210" Grid.Row="5" TextAlignment="Center"
+               Text="ОПИСАНИЕ" Grid.Column="1"/>
+
+        <TextBox x:Name="ProductNameTextBox"
+                 Grid.Column="1" HorizontalAlignment="Center" 
+                 Grid.Row="2" TextWrapping="Wrap" 
+                 VerticalAlignment="Center" Width="398" Height="70"/>
+
+        <TextBox x:Name="ProductPriceTextBox"
+             Grid.Column="1" HorizontalAlignment="Center" 
+             Grid.Row="4" TextWrapping="Wrap"  
+             VerticalAlignment="Center" Width="398" Height="70"/>
+
+        <TextBox x:Name="ProductDescriptionTextBox"
+             Grid.Column="1" HorizontalAlignment="Center" 
+             Grid.Row="6" TextWrapping="Wrap" 
+             VerticalAlignment="Center" Width="398" Height="183"/>
+
+        <Button x:Name="AddProductButton" Click="AddProductButton_Click" Grid.Column="1" Content="СОХРАНИТЬ" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" Height="70" Width="398" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="BackButton" Click="BackButton_Click" Grid.Column="1" Content="ОТМЕНА" HorizontalAlignment="Center" Grid.Row="8" VerticalAlignment="Center" Height="70" Width="398" FontSize="22" FontWeight="Bold"/>
+
     </Grid>
 </Window>

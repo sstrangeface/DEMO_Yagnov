@@ -23,3 +23,5 @@ C:\Users\Admin\source\repos\DemoEx\DemoEx\bin\Debug\EntityFramework.xml
 C:\Users\Admin\source\repos\DemoEx\DemoEx\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Admin\source\repos\DemoEx\DemoEx\obj\Debug\DataGrid.baml
 C:\Users\Admin\source\repos\DemoEx\DemoEx\obj\Debug\DemoEx.csproj.Up2Date
+C:\Users\Admin\source\repos\DemoEx\DemoEx\obj\Debug\EditWindow.g.cs
+C:\Users\Admin\source\repos\DemoEx\DemoEx\obj\Debug\EditWindow.baml

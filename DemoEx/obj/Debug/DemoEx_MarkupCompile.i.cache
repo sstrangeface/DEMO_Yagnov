@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Admin\source\repos\DemoEx\DemoEx\App.xaml
-3-892176197
+4-1344429927
 2-748173327
-19896329689
+201203207323
 18-1770787329
-AuthWindow.xaml;DataGrid.xaml;MainWindow.xaml;
+AuthWindow.xaml;DataGrid.xaml;EditWindow.xaml;MainWindow.xaml;
 
-False
+True
 
